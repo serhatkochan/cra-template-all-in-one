@@ -4,7 +4,7 @@
 
 ```sh
 npx create-react-app appName --template all-in-one
-cd mydapp
+cd appName
 npm start
 ```
 
