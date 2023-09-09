@@ -20,6 +20,10 @@ npm start
     ├── configs
     │   ├── AppConfig
     │   ├── EnvironmentConfig
+    ├── helpers
+    │   ├── LocalStorageHelper
+    │   ├── SystemHelper
+    │   ├── TranslateHelper
     ├── layouts
     ├── pages
     ├── routes
