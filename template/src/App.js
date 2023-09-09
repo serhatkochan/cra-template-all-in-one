@@ -1,8 +1,13 @@
+import React, { Suspense, lazy } from 'react';
+import Loader from 'components/Loader';
+
+const Routes = lazy(() => import('./routes'));
+
 function App() {
   return (
-    <div>
-      All in one awesome CRA Template
-    </div>
+    <Suspense fallback={<Loader />}>
+      <Routes/>
+    </Suspense>
   );
 }
 

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "./src",
+    "paths": {
+      "assets": ["assets/*"],
+      "components": ["components/*"],
+      "configs": ["configs/*"],
+      "constants": ["constants/*"],
+      "translations": ["translations/*"],
+      "layouts": ["layouts/*"],
+      "pages": ["pages/*"],
+      "store": ["store/*"],
+      "routes": ["routes/*"],
+      "services": ["services/*"],
+      "helpers": ["helpers/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules"]
+}

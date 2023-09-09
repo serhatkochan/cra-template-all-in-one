@@ -1,0 +1,136 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "project": "./jsconfig.json"
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "commonjs": true,
+    "jest": true
+  },
+  "root": true,
+  "extends": [
+    "react-app",
+    "airbnb-base",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": [
+    "jest",
+    "react-hooks",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "@typescript-eslint/no-empty-function": "off",
+    "default-param-last": "off",
+    "import/order": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "max-len": [
+      "error",
+      {
+        "code": 150,
+        "ignoreUrls": true
+      }
+    ],
+    "no-shadow": "off",
+    "no-underscore-dangle": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "jsx-no-lambda": "off",
+    "semi": ["error", "always"],
+    "object-shorthand": "error",
+    "quotes": ["error", "single"],
+    "member-ordering": "off",
+    "object-literal-sort-keys": "off",
+    "no-shadowed-variable": "off",
+    "no-consecutive-blank-lines": "off",
+    "no-string-literal": "off",
+    "jsx-no-multiline-js": "off",
+    "jsx-boolean-value": "off",
+    "arrow-parens": "off",
+    "no-implicit-dependencies": "off",
+    "no-submodule-imports": "off",
+    "no-case-declarations": "warn",
+    "jsx-alignment": "off",
+    "jsx-wrap-multiline": "off",
+    "arrow-body-style": "off",
+    "class-methods-use-this": "off",
+    "import/imports-first": "off",
+    "import/newline-after-import": "off",
+    "import/no-dynamic-require": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-named-as-default": "off",
+    "import/no-webpack-loader-syntax": "off",
+    "import/prefer-default-export": "off",
+    "import/no-cycle": "warn",
+    "linebreak-style": "off",
+    "operator-linebreak": ["error", "after"],
+    "no-param-reassign": "off",
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1,
+        "ignoredNodes": [
+          "TemplateLiteral"
+        ]
+      }
+    ],
+    "array-callback-return": "off",
+    "newline-per-chained-call": "off",
+    "no-confusing-arrow": "off",
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "no-use-before-define": "off",
+    "object-curly-newline": ["error", {
+      "ImportDeclaration": { "multiline": true, "minProperties": 5 },
+      "ExportDeclaration": { "multiline": true, "minProperties": 5 }
+    }],
+    "prefer-template": "error",
+    "no-plusplus": "off",
+    "react/destructuring-assignment": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react/jsx-closing-tag-location": "off",
+    "react/forbid-prop-types": "off",
+    "react/jsx-first-prop-new-line": ["error", "multiline"],
+    "react/jsx-filename-extension": "off",
+    "react/jsx-no-target-blank": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-uses-vars": "error",
+    "react/prop-types": "off",
+    "react/prefer-stateless-function": "off",
+    "react/require-default-props": "off",
+    "react/require-extension": "off",
+    "react/self-closing-comp": "off",
+    "react/sort-comp": "off",
+    "react/static-property-placement": "off",
+    "prefer-promise-reject-errors": "off",
+    "template-curly-spacing": "off"
+  },
+  "globals": {
+    "process": true,
+    "document": true,
+    "window": true,
+    "_": "readonly"
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["pages", "./src/pages"],
+          ["components", "./src/components"],
+          ["utils", "./src/utils"],
+          ["services", "./src/services"],
+          ["environment", "./src/environment"],
+          ["redux", "./src/redux"],
+          ["hooks", "./src/hooks"],
+          ["routes", "./src/routes"]
+        ],
+        "extensions": [".ts", ".tsx", ".json"]
+      }
+    }
+  }
+}
