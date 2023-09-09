@@ -1,12 +1,13 @@
 {
   "name": "cra-template-all-in-one",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "keywords": [
     "react",
     "create-react-app",
     "template",
     "all-in-one"
   ],
+  "author": "Serhat Koçhan",
   "description": "All in one great template for CRA.",
   "repository": {
     "type": "git",
