@@ -8,7 +8,32 @@ cd appName
 npm start
 ```
 
-## Start developing React with a powerful design pattern and packages prepared for you!
+# Start developing React with a powerful design pattern and packages prepared for you!
+
+### Folder Structure
+
+    ├── assets
+    │   ├── images
+    │   ├── styles
+    ├── components
+    │   ├── Loader
+    ├── configs
+    │   ├── AppConfig
+    │   ├── EnvironmentConfig
+    ├── layouts
+    ├── pages
+    ├── routes
+    │   ├── PrivateRoute
+    │   ├── PublicRoute
+    │   ├── RouteList
+    ├── services
+    │   ├── ApiService
+    ├── store
+    │   ├── redux
+    ├── translations
+    │   ├── tr
+    │   ├── en
+    └── README.md
 
 ###  Packages
 
