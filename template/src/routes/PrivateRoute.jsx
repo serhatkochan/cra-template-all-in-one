@@ -1,7 +1,9 @@
 import React from 'react';
-import { Navigate } from 'react-router';
+import { Navigate, useNavigate } from 'react-router';
 const PrivateRoute = ({ children }) => {
   // Authentication Control
+  const navigate = useNavigate();
+
   if (true) {
     return children;
   }

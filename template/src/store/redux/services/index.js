@@ -3,7 +3,6 @@ const services = {
 
 export default services;
 
-
 /*
 create XService.js
 Example:

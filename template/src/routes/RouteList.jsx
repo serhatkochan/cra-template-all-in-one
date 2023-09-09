@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 import PublicRoute from './PublicRoute';
-import PrivateRoute from "./PrivateRoute";
+import PrivateRoute from './PrivateRoute';
 
 import AppLayout from 'layouts/App';
 import NotFoundPage from 'layouts/App/NotFoundPage';
